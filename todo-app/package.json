@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "'Here we go again'",
+  "main": "dist/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "NODE_ENV=production rimraf dist && parcel build index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-nightly.640",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "postcss": "^8.2.10",
+    "postcss-modules": "^4.0.0",
+    "postcss-scss": "^3.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}

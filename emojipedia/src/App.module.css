@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container span {
+  padding: 0.7rem;
+  font-size: 1.2em;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.emoji_desc {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 2rem 0 1rem 0;
+  color: deeppink;
+  position: sticky;
+  top: 0.3rem;
+  background: #fff;
+}

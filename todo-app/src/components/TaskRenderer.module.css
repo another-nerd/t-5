@@ -1,0 +1,29 @@
+.item_wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+}
+
+.item_wrapper div {
+  display: flex;
+  flex-direction: column;
+}
+
+ .btn {
+  color: red;
+  background: transparent;
+  border-radius: 50%;
+  font-size: 1.7em;
+  padding: 0 0.8rem;
+  cursor: pointer;
+}
+
+
+.btn:hover,
+input:focus {
+  background: transparent;
+  color: red;
+  border: none;
+}

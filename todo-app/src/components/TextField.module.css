@@ -1,0 +1,24 @@
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label > span {
+  padding-bottom: 0.5rem;
+}
+
+.label input {
+  padding: 0.8rem;
+  font: inherit;
+  font-family: "Rubik", sans-serif;
+  border: 1px solid lightgray;
+}
+
+.label > div {
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.label button {
+  margin-left: 0.3rem;
+}
